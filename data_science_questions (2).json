@@ -1,0 +1,194 @@
+[
+    {
+        "question": "Q1. Which is faster, python list or Numpy arrays, and why?",
+        "answer": "A.NumPy arrays are faster than Python lists for numerical operations. NumPy is a library for working with arrays in Python, and it provides a number of functions for performing operations on arrays efficiently."
+    },
+    {
+        "question": "Q2. What is the difference between a python list and a tuple?",
+        "answer": "A. InPython, a list is an ordered collection of objects that can be of different types. Lists are mutable, which means that you can change the value of a list element or add or remove elements from a list. Lists are created using square brackets and a comma-separated list of values."
+    },
+    {
+        "question": "Q3. What are python sets? Explain some of the properties of sets.",
+        "answer": "A.In Python, a set is an unordered collection of unique objects. Sets are often used to store a collection of distinct objects and to perform membership tests (i.e., to check if an object is in the set). Sets are defined using curly braces ({ and }) and a comma-separated list of values."
+    },
+    {
+        "question": "Q4. What is the difference between split and join?",
+        "answer": "A.Split and join are both functions of python strings, but they are completely different when it comes to functioning."
+    },
+    {
+        "question": "Q5. Explain the logical operations in python.",
+        "answer": "A.In Python, the logical operations and, or, and not can be used to perform boolean operations on truth values (True and False)."
+    },
+    {
+        "question": "Q6. Explain the top 5 functions used for python strings.",
+        "answer": "A. Here are the top 5Pythonstring functions:"
+    },
+    {
+        "question": "Q7. What is the use of the pass keyword in python?",
+        "answer": "A. pass is a null statement that does nothing. It is often used as a placeholder where a statement is required syntactically, but no action needs to be taken. For example, if you want to define afunctionor a class but haven\u2019t yet decided what it should do, you can use pass as a placeholder."
+    },
+    {
+        "question": "Q8. What is the use of the continue keyword in python?",
+        "answer": "A.continue is used in a loop to skip over the current iteration and move on to the next one. When continue is encountered, the current iteration of the loop is terminated, and the next one begins."
+    },
+    {
+        "question": "Q9. What are immutable and mutable data types?",
+        "answer": "A.In Python, an immutable object is an object whose state cannot be modified after it is created. This means that you can\u2019t change the value of an immutable object once it is created. Examples of immutable objects in Python include numbers (such as integers, floats, and complex numbers), strings, and tuples."
+    },
+    {
+        "question": "Q10. What is the use of try and accept block in python",
+        "answer": "A.The try and except block in Python are used to handle exceptions. An exception is an error that occurs during the execution of a program."
+    },
+    {
+        "question": "Q21. How to perform univariate analysis for numerical and categorical variables?",
+        "answer": "A.Univariate analysis is a statistical technique used to analyze and describe the characteristics of a single variable. It is a useful tool for understanding the distribution, central tendency, and dispersion of a variable, as well as identifying patterns and relationships within the data. Here are the steps for performing univariate analysis for numerical and categorical variables:"
+    },
+    {
+        "question": "Q22. What are the different ways in which we can find outliers in the data?",
+        "answer": "A.Outliers are data points that are significantly different from the majority of the data. They can be caused by errors, anomalies, or unusual circumstances, and they can have a significant impact on statistical analyses and machine learning models. Therefore, it is important to identify and handle outliers appropriately in order to obtain accurate and reliable results."
+    },
+    {
+        "question": "Q23. What are the different ways by which you can impute the missing values in the dataset?",
+        "answer": "A.There are several ways that you can impute null values (i.e., missing values) in a dataset:"
+    },
+    {
+        "question": "Q24. What are Skewness in statistics and its types?",
+        "answer": "A.Skewness is a measure of the symmetry of a distribution. A distribution is symmetrical if it is shaped like a bell curve, with most of the data points concentrated around the mean. A distribution is skewed if it is not symmetrical, with more data points concentrated on one side of the mean than the other."
+    },
+    {
+        "question": "Q25. What are the measures of central tendency?",
+        "answer": "A.In statistics, measures of central tendency are values that represent the center of a dataset. There are three main measures of central tendency: mean, median, and mode."
+    },
+    {
+        "question": "Q26. Can you explain the difference between descriptive and inferential statistics?",
+        "answer": "A.Descriptive statistics is used to summarize and describe a dataset by using measures of central tendency (mean, median, mode) and measures of spread (standard deviation, variance, range). Inferential statistics is used to make inferences about a population based on a sample of data and using statistical models, hypothesis testing and estimation."
+    },
+    {
+        "question": "Q27. What are the key elements of an EDA report and how do they contribute to understanding a dataset?",
+        "answer": "A. The key elements of an EDA report include univariate analysis, bivariate analysis, missing data analysis, and basic data visualization. Univariate analysis helps in understanding the distribution of individual variables, bivariate analysis helps in understanding the relationship between variables, missing data analysis helps in understanding the quality of data, and data visualization provides a visual interpretation of the data."
+    },
+    {
+        "question": "Q28. What is the central limit theorem?",
+        "answer": "A.The Central Limit Theorem is a fundamental concept in statistics that states that as the sample size increases, the distribution of the sample mean will approach a normal distribution. This is true regardless of the underlying distribution of the population from which the sample is drawn. This means that even if the individual data points in a sample are not normally distributed, by taking the average of a large enough number of them, we can use normal distribution-based methods to make inferences about the population."
+    },
+    {
+        "question": "Q29. Mention the two kinds of target variables for predictive modeling.",
+        "answer": "A.The two kinds of target variables are:"
+    },
+    {
+        "question": "Q30. What will be the case in which the Mean, Median, and Mode will be the same for the dataset?",
+        "answer": "A.The mean, median, and mode of a dataset will all be the same if and only if the dataset consists of a single value that occurs with 100% frequency."
+    },
+    {
+        "question": "Q31. What is the difference between Variance and Bias in Statistics?",
+        "answer": "A.In statistics, variance, and bias are two measures of the quality or accuracy of a model or estimator."
+    },
+    {
+        "question": "Q32. What is the difference between Type I and Type II errors?",
+        "answer": "A. Two types of errors can occur in hypothesis testing: Type I errors and Type II errors."
+    },
+    {
+        "question": "Q33. What is the Confidence Interval in statistics?",
+        "answer": "A.The confidence interval is the range within which we expect the results to lie if we repeat the experiment. It is the mean of the result plus and minus the expected variation."
+    },
+    {
+        "question": "Q34. Can you explain the concept of correlation and covariance?",
+        "answer": "A. Correlation is a statistical measure that describes the strength and direction of a linear relationship between two variables. A positive correlation indicates that the two variables increase or decrease together, while a negative correlation indicates that the two variables move in opposite directions. Covariance is a measure of the joint variability of two random variables. It is used to measure how two variables are related."
+    },
+    {
+        "question": "Q35. Why is hypothesis testing useful for a data scientist?",
+        "answer": "A.Hypothesis testing is a statistical technique used in data science to evaluate the validity of a claim or hypothesis about a population. It is used to determine whether there is sufficient evidence to support a claim or hypothesis and to assess the statistical significance of the results."
+    },
+    {
+        "question": "Q36. What is a chi-square test of independence used for in statistics?",
+        "answer": "A.A chi-square test of independence is a statistical test used to determine whether there is a significant association between two categorical variables. It is used to test the null hypothesis that the two variables are independent, meaning that the value of one variable does not depend on the value of the other variable."
+    },
+    {
+        "question": "Q37. What is the significance of the p-value?",
+        "answer": "A.The p-value is used to determine the statistical significance of a result. In hypothesis testing, the p-value is used to assess the probability of obtaining a result that is at least as extreme as the one observed, given that the null hypothesis is true. If the p-value is less than the predetermined level of significance (usually denoted as alpha, \u03b1), then the result is considered statistically significant and the null hypothesis is rejected."
+    },
+    {
+        "question": "Q38. What are the different types of sampling techniques used by data analysts?",
+        "answer": "A.There are many different types of sampling techniques that data analysts can use, but some of the most common ones include:"
+    },
+    {
+        "question": "Q39. What is Bayes\u2019 theorem and how is it used in data science?",
+        "answer": "A.Bayes\u2019 theorem is a mathematical formula that describes the probability of an event occurring, based on prior knowledge of conditions that might be related to the event. In data science, Bayes\u2019 theorem is often used in Bayesian statistics and machine learning, for tasks such as classification, prediction, and estimation."
+    },
+    {
+        "question": "Q40. What is the difference between a parametric and a non-parametric test?",
+        "answer": "A.A parametric test is a statistical test that assumes that the data follows a specific probability distribution, such as a normal distribution. A non-parametric test does not make any assumptions about the underlying probability distribution of the data."
+    },
+    {
+        "question": "Q41. What is the difference between feature selection and extraction?",
+        "answer": "A.Feature selection is the technique in which we filter the features that should be fed to the model. This is the task in which we select the most relevant features. The features that clearly do not hold any importance in determining the prediction of the model are rejected."
+    },
+    {
+        "question": "Q42. What are the 5 assumptions for linear regression?",
+        "answer": "A.Here are the 5 assumptions of linear regression:"
+    },
+    {
+        "question": "Q43. What is the difference between linear and nonlinear regression?",
+        "answer": "A.Linear regression is the method used to find the relationship between a dependent and one or more independent variables. The model finds the best-fit line, which is a linear function (y = mx + c) that helps in fitting the model in such a way that the error is minimum considering all the data points."
+    },
+    {
+        "question": "Q44. How will you identify underfitting in a model?",
+        "answer": "A.Underfitting occurs when a statistical model or machine learning algorithm is not able to capture the underlying trend of the data. This can happen for a variety of reasons, but one common cause is that the model is too simple and is not able to capture the complexity of the data."
+    },
+    {
+        "question": "Q45. How will you identify overfitting in a model?",
+        "answer": "A.Overfitting in a model occurs when the model learns the whole training data instead of taking signals/hints from the data and the model performs extremely well on training data and performs poorly on the testing data."
+    },
+    {
+        "question": "Q46. What are some of the techniques to avoid overfitting?",
+        "answer": "A.Some techniques that can be used to avoid overfitting include cross-validation, regularization, pruning (in decision trees), and simplifying the model."
+    },
+    {
+        "question": "Q47. What are some of the techniques to avoid underfitting?",
+        "answer": "A.Some techniques to prevent underfitting in a model include increasing the complexity of the model, using more features, and providing more training data."
+    },
+    {
+        "question": "Q48. What is Multicollinearity?",
+        "answer": "A.Multicollinearity occurs when two or more predictor variables in a multiple regression model are highly correlated. This can lead to unstable and inconsistent coefficients, and make it difficult to interpret the results of the model."
+    },
+    {
+        "question": "Q49. Explain regression and classification problems.",
+        "answer": "A.Regression is a method of modeling the relationship between one or more independent variables and a dependent variable. Classification involves assigning labels to input data based on its characteristics."
+    },
+    {
+        "question": "Q50. What is the difference between K-means and KNN?",
+        "answer": "A.K-means is an unsupervised learning algorithm for clustering data into groups, while KNN (K-Nearest Neighbors) is a supervised learning algorithm for classification and regression tasks."
+    },
+    {
+        "question": "Q51. What is the difference between Sigmoid and Softmax?",
+        "answer": "A.The Sigmoid function is used for binary classification and maps outputs to a probability range (0, 1). The Softmax function is used for multi-class classification and maps outputs to a probability distribution across multiple classes."
+    },
+    {
+        "question": "Q52. Can we use logistic regression for multiclass classification?",
+        "answer": "A.Yes, logistic regression can be used for multiclass classification using techniques such as one-vs-rest or multinomial logistic regression."
+    },
+    {
+        "question": "Q53. Can you explain the bias-variance tradeoff in supervised machine learning?",
+        "answer": "A.The bias-variance tradeoff involves balancing a model\u2019s ability to fit training data (low bias) and generalize to new data (low variance). High bias leads to underfitting, while high variance leads to overfitting."
+    },
+    {
+        "question": "Q54. How do you decide whether a model is suffering from high bias or high variance?",
+        "answer": "A.If the model performs poorly on both training and testing data, it has high bias (underfitting). If it performs well on training data but poorly on testing data, it has high variance (overfitting)."
+    },
+    {
+        "question": "Q55. What are some techniques for balancing bias and variance in a model?",
+        "answer": "A.Techniques include adjusting the model complexity, using cross-validation, and employing regularization methods such as Lasso or Ridge regression."
+    },
+    {
+        "question": "Q56. How do you choose the appropriate evaluation metric for a classification problem, and how do you interpret the results of the evaluation?",
+        "answer": "A.The choice of evaluation metric depends on the problem. Metrics such as accuracy, precision, recall, F1-score, and ROC-AUC are common. Interpret the results by considering the trade-offs between metrics."
+    },
+    {
+        "question": "Q57. What is the difference between K-means and hierarchical clustering and when to use what?",
+        "answer": "A.K-means is faster and works well with large datasets, while hierarchical clustering is better for smaller datasets and provides a tree-like structure to understand clusters."
+    },
+    {
+        "question": "Q58. How can you handle imbalanced classes in a logistic regression model?",
+        "answer": "A.Approaches include using techniques like oversampling the minority class, undersampling the majority class, using class weights, or employing algorithms specifically designed to handle imbalance."
+    }
+]
