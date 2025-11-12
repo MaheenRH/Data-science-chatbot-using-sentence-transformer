@@ -45,6 +45,28 @@ The chatbot uses **semantic search (embedding-based retrieval)** instead of keyw
 
 ---
 
+
+---
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/95c9a1db-e79f-4c12-8096-27899296fcfd" />
+
+## 🖼 Demo & Architecture
+
+### 💬 Gradio Chatbot Interface
+Below is a preview of the chatbot answering a data science question interactively through Gradio.
+
+<p align="center">
+  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/95c9a1db-e79f-4c12-8096-27899296fcfd" >
+</p>
+
+### 🧩 System Architecture
+This diagram shows the complete flow — from scraping questions to embedding and delivering answers.
+
+<p align="center">
+ <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/906fd80f-6c88-40b3-83f6-bab79f53a8f3" >
+</p>
+
+---
+
 ## 🧠 Example Interaction  
 
 ```text
@@ -70,4 +92,5 @@ interface = gr.Interface(
 )
 
 interface.launch()
+
 
